@@ -1,0 +1,16 @@
+.ring {
+  position: absolute;
+  left: 0;
+  stroke: #09a65a;
+  top: 0;
+  z-index: 1;
+  transition: stroke 2s linear;
+}
+
+.ring.ending {
+  stroke: #900a0a;
+}
+
+.ring circle {
+  transition: stroke-dashoffset 1s linear;
+}
