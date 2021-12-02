@@ -1,3 +1,7 @@
+# Live solution
+
+https://adventofjs2021-day-1-pomodoro-zeosamaster.vercel.app/
+
 # Brief
 
 In this project, we're creating a Pomodoro timer.
@@ -29,9 +33,9 @@ You can use as many (or as few) tools, libraries, and frameworks as you'd like. 
 # FAQs
 
 - Can I use libraries / frameworks on these projects?
-    - Of course! We're providing the vanilla HTML and CSS, but you can use whatever tools and frameworks you'd like.
+  - Of course! We're providing the vanilla HTML and CSS, but you can use whatever tools and frameworks you'd like.
 - Oh no! I'm stuck!
-    - Consider [purchasing the Solutions](http://adventofjs.com) (if you haven't already). You'll get access to a video, where James explains how to write all the code.
-    - Check out the [Learn Build Teach Discord.](http://learnbuidteach.com) We have a specific channel set up, just for the Advent of JavaScript.
+  - Consider [purchasing the Solutions](http://adventofjs.com) (if you haven't already). You'll get access to a video, where James explains how to write all the code.
+  - Check out the [Learn Build Teach Discord.](http://learnbuidteach.com) We have a specific channel set up, just for the Advent of JavaScript.
 - Can I use this project in my portfolio?
-    - Sure! But, be honest about the work that *you* did
+  - Sure! But, be honest about the work that _you_ did
