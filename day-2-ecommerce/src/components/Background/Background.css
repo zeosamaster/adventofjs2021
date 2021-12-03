@@ -1,0 +1,27 @@
+.bg {
+  position: fixed;
+}
+
+.bg__btm-right {
+  left: calc(100vw - 510px);
+  top: calc(100vh - 520px);
+  background: url("./images/bg__btm-right.svg");
+  width: 637px;
+  height: 610px;
+}
+
+.bg__top-right {
+  left: calc(100vw - 454px);
+  top: 0px;
+  background: url("./images/bg__top-right.svg");
+  width: 496px;
+  height: 248px;
+}
+
+.bg__left {
+  left: 0;
+  top: calc(50vh - 273px);
+  background: url("./images/bg__left.svg");
+  width: 248px;
+  height: 586px;
+}

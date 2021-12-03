@@ -1,0 +1,68 @@
+.menu-item {
+  position: relative;
+  left: 30px;
+
+  margin-top: 40px;
+  padding-right: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-item > .image {
+  flex: 0;
+  position: relative;
+  top: -30px;
+  left: -30px;
+}
+
+.menu-item > .summary {
+  position: relative;
+  top: 10px;
+
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-item > .summary > .title {
+  flex: 1 0 auto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.menu-item > .summary > .price {
+  flex: 2 0 auto;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.menu-item > .summary > .btn {
+  flex: 0 0 auto;
+  padding: 4px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: 0;
+}
+
+.menu-item > .summary > .btn.in-cart {
+  background: black;
+}
+
+.menu-item > .summary > .btn.add-to-cart {
+  background: #6b00f5;
+  cursor: pointer;
+}
