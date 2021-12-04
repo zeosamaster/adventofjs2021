@@ -1,3 +1,7 @@
+# Live solution
+
+https://adventofjs2021-day-3-piano-zeosamaster.vercel.app/
+
 # Brief
 
 In this project, we're creating a keyboard. I love this project because at first glance it seems easy, but there are some more complicated steps involved.
