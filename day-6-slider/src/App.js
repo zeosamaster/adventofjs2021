@@ -1,23 +1,30 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 
 function App() {
+  const [value, setValue] = React.useState(0);
+
+  const onChange = React.useCallback((e) => {
+    setValue(e.target.value);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <div className="amount">
+        <sup>$</sup>
+        <span className="dollars">{Number(value).toFixed(2)}</span>
+      </div>
+      <input
+        type="range"
+        id="priceRange"
+        min="0"
+        max="10000"
+        step="0.01"
+        value={value}
+        onChange={onChange}
+      />
+      <br />
+      <button>Buy Now</button>
     </div>
   );
 }
