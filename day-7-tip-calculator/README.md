@@ -1,3 +1,7 @@
+# Live solution
+
+https://adventofjs-day-7-tip-calculator-zeosamaster.vercel.app/
+
 # Brief
 
 In this project, we're creating a Tip Calculator.
